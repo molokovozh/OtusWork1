@@ -4,7 +4,8 @@
 Откройте IDE:
 - Создайте новый проект (maven)
 - Настройте для проекта файл .gitignore (https://www.gitignore.io/)
-- В файле pom.xml укажите зависимости для
+- В файле pom.xml укажите зависимости для:
+
 -- Selenium Java (https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java)
 -- WebDriverManager (https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager)
 -- jUnit (https://mvnrepository.com/artifact/junit/junit/4.13)
