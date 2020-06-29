@@ -16,14 +16,14 @@ public class SampleTest {
     public void setUp() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
-        logger.info("Драйвер поднят");
+        logger.info("The driver is running");
     }
     @Test
     public void openPage() {
         driver.manage().window().maximize();
         driver.get("https://otus.ru/");
         System.out.println(driver.getTitle());
-        logger.info("Ура, открыта страница OTUS!");
+        logger.info("The page otus.ru is opened!");
     }
 
     @After
